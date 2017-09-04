@@ -65,7 +65,7 @@ class Game
     end
 
     if victory?
-      return false
+      false
     else
       res.all? { |item| item == true } 
     end
